@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently learning Full Stuck from GEEKSTER.
             <br />
-            I have completed B.Tech in Computer Science free UEM, Jaipur.
+            I have completed B.Tech in Computer Science from UEM, Jaipur.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
