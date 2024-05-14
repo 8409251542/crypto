@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ravi Shankar </span>
             from <span className="purple"> Gaya,Bihar, India.</span>
             <br />
-            I am currently learning Full Stuck from GEEKSTER.
+            I am currently learning Full Stack from GEEKSTER.
             <br />
             I have completed B.Tech in Computer Science from UEM, Jaipur.
             <br />
