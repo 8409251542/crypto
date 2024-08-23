@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import gitHub from "../../Assets/Projects/git.png";
 import Every from "../../Assets/Projects/every.png";
 import poke from "../../Assets/Projects/poke.png";
+import Eat from "../../Assets/Projects/Screenshot 2024-08-23 110856.png"
+import Fit from "../../Assets/Projects/Screenshot 2024-08-23 114014.png"
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -51,6 +53,26 @@ function Projects() {
               description="Discover, explore, and connect with developers worldwide using our Git Profile Finder! Crafted with HTML, CSS, and JavaScript, our sleek web app lets you search for GitHub profiles effortlessly. Explore developers' repositories, contributions, and stats with ease. Whether you're scouting for collaborators, seeking inspiration, or networking with fellow coders, our intuitive interface streamlines the process. Enhance your coding journey and expand your network with our Git Profile Finder today!"
               ghLink="https://github.com/8409251542/gitHub"
               demoLink="https://8409251542.github.io/gitHub/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Eat}
+              isBlog={false}
+              title="EatFast"
+              description="Discover, explore, and cook with ease using EatFast, your ultimate recipe finder! Built with React.js, our responsive web app allows you to search for delicious recipes effortlessly. Navigate through a vast collection of recipes, view detailed ingredients, and follow step-by-step cooking instructions with a user-friendly interface powered by React Router and dynamic components. Whether you're a seasoned chef or just starting out, EatFast helps you whip up meals in no time. Enhance your culinary journey and find your next favorite dish with EatFast today!"
+              ghLink="https://github.com/8409251542/new-recipies"
+              demoLink="https://new-recipies.vercel.app/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Fit}
+              isBlog={false}
+              title="FitGuru"
+              description="Get fit and stay healthy with Fit Guru, your go-to fitness app for personalized workouts! Developed with React and powered by Axios, our app helps you discover exercises tailored to specific body parts and health concerns. Whether you're looking to strengthen your core, improve flexibility, or address specific fitness issues, Fit Guru provides detailed exercise guides with an easy-to-navigate interface. Start your fitness journey today and achieve your goals with customized workout plans, all at your fingertips with Fit Guru!"
+              ghLink="https://github.com/8409251542/FitGuru"
+              demoLink="https://fit-guru-chi.vercel.app/#"              
             />
           </Col>
         </Row>
